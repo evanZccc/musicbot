@@ -10,9 +10,7 @@ module.exports = {
   MusicIcon:"https://cdn.discordapp.com/emojis/763415718271385610.gif",
   embedTimeout: 5,  // Timeout before the button interaction embeds are deleted ( Default - 5 seconds)
   errorLog: "", 
-    name: 'ready',
-    once: true,
-    execute(client) {
+  execute(client) {
   
         const activities = [
             { name: 'Inazuma Eleven Italia', type: ActivityType.Watching },
@@ -20,18 +18,7 @@ module.exports = {
             { name: 'Inazuma Eleven Cheats', type: ActivityType.Watching },
             { name: 'Inazuma Ost', type: ActivityType.Listening },
         ];
-
-        
-        setTimeout(() => {
-            setActivityAndStatus();
-            console.log('\x1b[31m[ CORE ]\x1b[0m \x1b[32m%s\x1b[0m', 'Bot Activity Set Successful ✅');
-        }, 2000);
-
-        setInterval(() => {
-            setActivityAndStatus();
-        }, 6000);
-    },
-
+}
    // Lavalink Server Details
 
   nodes: [
