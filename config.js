@@ -17,11 +17,11 @@ module.exports = {
   
     nodes: [
       {
-  "identifier": "AjieDev - Lavalink [Non SSL]",
-  "password": "https://dsc.gg/ajidevserver",
-  "host": "lava-v3.ajieblogs.eu.org",
-  "port": 80,
-  "secure": false
+  identifier: "AjieDev - Lavalink [Non SSL]",
+  password: "https://dsc.gg/ajidevserver",
+  host: "lava-v3.ajieblogs.eu.org",
+  port: 80,
+  secure: false
 },
    ]
   }
