@@ -5,7 +5,7 @@ module.exports = {
     commandsDir: './commands',  
     embedColor: "#1db954",
     musicardTheme:"themes16", //Goes from themes1 to themes19
-    activityName: "Porco Dio", // This is bot status Write Anything here 
+    activityName: "Fortnite", // This is bot status Write Anything here 
     activityType: "PLAYING",  // Available activity types : LISTENING , PLAYING
     SupportServer: "https://discord.gg/43VDd3UTrM",
     CheckmarkIcon: "https://cdn.discordapp.com/emojis/819446784647757834.gif",
