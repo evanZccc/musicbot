@@ -17,13 +17,14 @@ module.exports = {
   
     nodes: [
       {
-  identifier: "Naig Node - 01",
-  password: "NAIGLAVA-dash.techbyte.host",
-  host: "lavalink01.techbyte.host",
-  port: 2036,
+  identifier: "LewdHuTao - Lavalink",
+  password: "youshallnotpass",
+  host: "node.lewdhutao.my.eu.org",
+  port: 80,
   secure: false
+
 },
    ]
   }
 
-
+  
